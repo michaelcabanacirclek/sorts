@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "copy": "cp package.json dist/ && cp README.md dist/ && cp .npmrc dist/"
   },
   "keywords": [],
   "author": "",
