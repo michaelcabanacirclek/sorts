@@ -5,7 +5,7 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "copy": "cp package.json dist/ && cp README.md dist/ && cp .npmrc dist/"
+    "copy": "cp package.json dist/ && cp README.md dist/"
   },
   "keywords": [],
   "author": "",
