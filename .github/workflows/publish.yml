@@ -58,6 +58,10 @@ jobs:
       - name: Build package
         run: npm run build
 
+      - name: Copy assets to dist
+        run: | 
+          cp -r package.json dist/ && cp -r README.md dist/
+
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
