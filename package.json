@@ -9,12 +9,9 @@
     "build": "tsc",
     "test": "jest"
   },
-  "files": [
-    "dist",
-    "package.json",
-    "README.md"
+  "keywords": [
+    "sorting algorithms"
   ],
-  "keywords": [],
   "author": "@michaelcabanacirclek",
   "license": "ISC",
   "description": "A library of sorting functions.",
