@@ -1,6 +1,6 @@
 # Sorts
 
-A typescript library of sorting functions.
+A library of sorting functions.
 
 ## Features
 

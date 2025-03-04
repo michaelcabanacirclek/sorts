@@ -1,16 +1,20 @@
 {
   "name": "@michaelcabanacirclek/sorts",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "test": "jest",
-    "postversion": "cp -r package.json dist/ && cp -r README.md dist/"
+    "test": "jest"
   },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
   "keywords": [],
-  "author": "",
+  "author": "@michaelcabanacirclek",
   "license": "ISC",
-  "description": "",
+  "description": "A library of sorting functions.",
   "devDependencies": {
     "@swc/jest": "^0.2.37",
     "@types/jest": "^29.5.14",
