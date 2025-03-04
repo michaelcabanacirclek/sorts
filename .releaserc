@@ -2,9 +2,9 @@
   "branches": [
     "main",
     {
-        "name": "develop",
-        "channel": "beta",
-        "prerelease": "beta"
+      "name": "develop",
+      "channel": "beta",
+      "prerelease": "beta"
     }
   ],
   "plugins": [
@@ -13,15 +13,11 @@
     [
       "@semantic-release/npm",
       {
+        "pkgRoot": "dist",
         "npmPublish": true,
-        "pkgRoot": "dist"
+        "registry": "https://npm.pkg.github.com/"
       }
     ],
-    [
-      "@semantic-release/github",
-      {
-        "assets": "dist/*.tgz"
-      }
-    ]
+    "@semantic-release/github"
   ]
 }
